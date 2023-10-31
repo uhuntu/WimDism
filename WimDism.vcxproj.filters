@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="extproc.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="wfdlgs2.cpp" />
+    <ClCompile Include="suggest.cpp" />
+    <ClCompile Include="wfdlgs.cpp" />
+    <ClCompile Include="wfinfo.cpp" />
+    <ClCompile Include="wfutil.cpp" />
+    <ClCompile Include="wfdir.cpp" />
+    <ClCompile Include="wfdrop.cpp" />
+    <ClCompile Include="numfmt.cpp" />
+    <ClCompile Include="wfchgnot.cpp" />
+    <ClCompile Include="wfcomman.cpp" />
+    <ClCompile Include="wfdlgs3.cpp" />
+    <ClCompile Include="wftree.cpp" />
+    <ClCompile Include="wfinit.cpp" />
+    <ClCompile Include="wfgoto.cpp" />
+    <ClCompile Include="wfdos.cpp" />
+    <ClCompile Include="wfdirrd.cpp" />
+    <ClCompile Include="wfcopy.cpp" />
+    <ClCompile Include="tbar.cpp" />
+    <ClCompile Include="winfile.cpp" />
+    <ClCompile Include="wfdrives.cpp" />
+    <ClCompile Include="wfloc.cpp" />
+    <ClCompile Include="wfassoc.cpp" />
+    <ClCompile Include="wfsearch.cpp" />
+    <ClCompile Include="wffile.cpp" />
+    <ClCompile Include="treectl.cpp" />
+    <ClCompile Include="wfmem.cpp" />
+    <ClCompile Include="wfdirsrc.cpp" />
+    <ClCompile Include="lfn.cpp" />
+    <ClCompile Include="wnetcaps.cpp" />
+    <ClCompile Include="wfext.cpp" />
+    <ClCompile Include="wfprint.cpp" />
+    <ClCompile Include="Resize.cpp" />
+    <ClCompile Include="lfnmisc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wfext.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="winfile.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fmifs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mpr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="numfmt.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="suggest.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wfdocb.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wfexti.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wfhelp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wfmem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="res.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wfdlgs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wfinfo.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lfn.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wfcopy.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wnetcaps.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wfdrop.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="treectl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="dbg.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resize.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BagOValues.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="spinlock.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{f6080eb3-5cce-4602-8507-30f028c8d840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{4b7508bc-69b1-4a80-92cc-2937c9a43869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lang">
+      <UniqueIdentifier>{c0979cf9-dbd3-420a-b471-d96dadcfbc60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="WimDism.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="WimDism.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lang\suggest_en-US.db">
+      <Filter>lang</Filter>
+    </None>
+  </ItemGroup>
+</Project>
